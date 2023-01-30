@@ -1,0 +1,79 @@
+main h1{
+    font-size: 54px;
+}
+
+.produk{
+    overflow-y: hidden;
+}
+
+.produk a{
+    text-decoration: none;
+}
+
+.produk::-webkit-scrollbar {
+    display: none;
+}
+
+.produk img{
+    display: inline-block;
+    padding: 0 5.5px;
+    margin-top: 1px;
+}
+
+
+.produk h5{
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.produk h6{
+    font-size: 15px;
+}
+
+ul li{
+    list-style: none;
+}
+
+.categories p{
+    text-align: right;
+    margin: 25px 40px 0 0;
+    position: relative;
+    z-index: 2;
+}
+.categories .atas{
+    position: absolute;
+    width: 38%;
+    z-index: 1;
+}
+
+@media (max-width :1024px) {
+    .hero h1{
+        font-size: 20px;
+    }
+    .produk img{
+        width: 150px;
+    }
+    .categories .atas{
+        height: 80px;
+        width: 35%;
+    }
+    .categories p{
+        margin: 5px 5px 0 0;
+        font-size: 13px;
+    }
+    .categories .bawah{
+        height: 170px;
+    }
+    .hero p{
+        font-size: 15px;
+    }
+    .footer h3,li{
+        font-size: 10px;
+    }
+    .wrapper h4{
+        font-size: 15px;
+    }
+    .collaborate img{
+        width: 100px;
+    }
+}
