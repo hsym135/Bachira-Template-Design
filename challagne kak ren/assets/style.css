@@ -6,10 +6,6 @@ main h1{
     overflow-y: hidden;
 }
 
-.produk a{
-    text-decoration: none;
-}
-
 .produk::-webkit-scrollbar {
     display: none;
 }
@@ -19,6 +15,10 @@ main h1{
     padding: 0 5.5px;
     margin-top: 1px;
 }
+
+.produk a{
+    text-decoration: none;
+}    
 
 
 .produk h5{
@@ -46,6 +46,7 @@ ul li{
     z-index: 1;
 }
 
+
 @media (max-width :1024px) {
     .hero h1{
         font-size: 20px;
@@ -54,15 +55,16 @@ ul li{
         width: 150px;
     }
     .categories .atas{
-        height: 80px;
-        width: 35%;
+        height: 120px;
+        width: 100%;
+        margin: -11px;
     }
     .categories p{
         margin: 5px 5px 0 0;
         font-size: 13px;
     }
     .categories .bawah{
-        height: 170px;
+        height: 120px;
     }
     .hero p{
         font-size: 15px;
